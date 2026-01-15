@@ -31,10 +31,10 @@ async def start_pm(client, message: Message, _):
     await add_served_user(message.from_user.id)
     
     
-    typing_message = await message.reply("<b>𝖣ɪɴɢ..𝖣ᴏɴɢ..❤️‍🔥</b>")
+    typing_message = await message.reply("<b>........</b>")
     
     
-    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...❤️‍🔥</b>"
+    typing_text = "<b>𝖲ᴛᴀʀᴛɪɴɢ...</b>"
     
     for i in range(1, len(typing_text) + 1):  
         try:
@@ -194,4 +194,5 @@ async def welcome(client, message: Message):
                 await message.stop_propagation()
         except Exception as ex:
             print(ex)
+
 
