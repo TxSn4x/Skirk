@@ -50,7 +50,7 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://graph.org/file/1d82800634181fae2ee24-4bdd1003cdb14b30cc.jpg")
+START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/equ7cf.mp4")
 PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg")
 PLAYLIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
 STATS_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
