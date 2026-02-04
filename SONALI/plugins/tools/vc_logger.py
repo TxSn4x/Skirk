@@ -3,8 +3,7 @@
 from pyrogram import Client, filters
 from pyrogram.types import ChatMemberUpdated, Message
 from logging import getLogger, basicConfig
-from config import session_name  # Using the same assistant session
-from asyncio import sleep
+from config import STRING_SESSION  # Using your string session from config.py
 
 # Configure logger
 basicConfig(level=20)
@@ -17,7 +16,7 @@ current_song = {}
 enabled_chats = set()
 
 # Initialize assistant client
-app = Client(session_name)
+app = Client(STRING_SESSION)
 
 # ================== VC LOGGING ==================
 @app.on_chat_member_updated(filters.group)
