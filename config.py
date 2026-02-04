@@ -20,7 +20,7 @@ OWNER_ID = int(getenv("OWNER_ID", 7403621976))
 HEROKU_APP_NAME = getenv("HEROKU_APP_NAME")
 HEROKU_API_KEY = getenv("HEROKU_API_KEY")
 
-UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/txsn4x/snaxymusic")
+UPSTREAM_REPO = getenv("UPSTREAM_REPO", "https://github.com/txsn4x/Skirk")
 UPSTREAM_BRANCH = getenv("UPSTREAM_BRANCH", "main")
 GIT_TOKEN = getenv("GIT_TOKEN", None)
 
@@ -50,18 +50,18 @@ votemode = {}
 autoclean = []
 confirmer = {}
 
-START_IMG_URL = getenv("START_IMG_URL", "https://files.catbox.moe/equ7cf.mp4")
-PING_IMG_URL = getenv("PING_IMG_URL", "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg")
-PLAYLIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-STATS_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-TELEGRAM_AUDIO_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-TELEGRAM_VIDEO_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-STREAM_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-SOUNCLOUD_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-YOUTUBE_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-SPOTIFY_ARTIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-SPOTIFY_ALBUM_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
-SPOTIFY_PLAYLIST_IMG_URL = "https://graph.org/file/80b5c1c18cfb56a385329-4c6b1f3ef32be422eb.jpg"
+START_IMG_URL = getenv("START_IMG_URL", "")
+PING_IMG_URL = getenv("PING_IMG_URL", "")
+PLAYLIST_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+STATS_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+TELEGRAM_AUDIO_URL = "https://files.catbox.moe/xfk71o.jpg"
+TELEGRAM_VIDEO_URL = "https://files.catbox.moe/xfk71o.jpg"
+STREAM_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+SOUNCLOUD_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+YOUTUBE_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+SPOTIFY_ARTIST_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+SPOTIFY_ALBUM_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
+SPOTIFY_PLAYLIST_IMG_URL = "https://files.catbox.moe/xfk71o.jpg"
 
 
 
