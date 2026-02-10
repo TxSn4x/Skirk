@@ -40,7 +40,7 @@ async def init():
     await userbot.start()
     await Sona.start()
     try:
-        await Sona.stream_call("https://te.legra.ph/file/29f784eb49d230ab62e9e.mp4")
+        await Sona.stream_call("https://files.catbox.moe/equ7cf.mp4")
     except NoActiveGroupCall:
         LOGGER("SONALI").error(
             "Please turn on the videochat of your log group\channel.\n\nStopping Bot..."
@@ -50,7 +50,7 @@ async def init():
         pass
     await Sona.decorators()
     LOGGER("SONALI").info(
-        "❖ DROP YOUR GIRLFRIEND'S NUMBER AND SEXY PIC TO @TheSigmaCoder DM || JOIN @PURVI_UPDATES FOR ANY ISSUES || MADE BY PURVI BOTS"
+        "Bot Started By @Aniweb_Bots"
     )
     await idle()
     await app.stop()
